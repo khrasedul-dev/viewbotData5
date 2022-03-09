@@ -51,8 +51,8 @@ app.get("/",async (req,res)=>{
                 <td>${data.name}<td/>
                 <td>${data.phone}<td/>
                 <td>${data.balance}<td/>
-                <td>${data.referr_id || 'None'}<td/>
-                <td>${data.referr_by || 'None'}<td/>
+                <td>${data.referr_id || 'Without Referr'}<td/>
+                <td>${data.referr_by || 'Without Referr'}<td/>
                 <td>${data.referralCount}<td/>
                 <td>${data.wallet}<td/>
             </tr>`
